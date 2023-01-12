@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../../assets/images.png'
+import logo from '../../assets/banner.jpeg'
 
 const BannerContainer=styled.div`
 
@@ -8,8 +8,9 @@ const BannerContainer=styled.div`
 `
 const Banners=styled.img`
 width: 100vw;
-height: 70vh;
+height: 50vh;
 opacity: 1;
+
 
 
 `

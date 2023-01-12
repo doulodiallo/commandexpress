@@ -2,6 +2,7 @@
 import React,{useState} from 'react'
 import styled from 'styled-components'
 
+
 const Link =styled.a`
 text-decoration:none;
 padding:0px 25px;
@@ -36,9 +37,9 @@ width: 100%;
 height: ${(props)=>(props.extendNavbar?"100vh":"80px")};
 display: flex;
 flex-direction: column;
-border-bottom: 2px solid rgb(255 127 0);
+border-bottom: 5px solid white;
 background-color: black;
-opacity: .8;
+
 
 `
 const LeftContainer=styled.div`
